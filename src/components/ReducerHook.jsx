@@ -47,7 +47,7 @@ function ReducerHook() {
             <div className="cont">
                 <div>
                     <input
-                        type="number"
+                        type="text"
                         placeholder="set value"
                         onChange={handleChange}
                         value={count}

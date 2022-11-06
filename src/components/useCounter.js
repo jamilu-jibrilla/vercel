@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function useCounter( init = 0) {
+function useCounter(init) {
     
     const [val, setVal] = useState(init)
     

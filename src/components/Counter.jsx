@@ -1,6 +1,6 @@
 import useCounter from "./useCounter";
 
-const Hero = () => {
+const Counter = () => {
     const { val, increase, decrease, reset, setValue } = useCounter(0)
     return (
         <div className="Hero">
@@ -30,4 +30,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Counter

@@ -20,6 +20,8 @@ input {
   margin-bottom: 1rem;
   outline: none;
   color: white;
+  background-color: transparent;
+  border: 2px solid white;
 }
 
 button {
